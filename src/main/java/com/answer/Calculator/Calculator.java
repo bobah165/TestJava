@@ -55,7 +55,7 @@ public class Calculator {
         if (!Double.isFinite(Double.parseDouble(output))) return null;
         if (resFlag>0) {
             output = "-"+output;
-            resFlag=0;
+           // resFlag=0;
         }
 
         char[] last = output.toCharArray();
